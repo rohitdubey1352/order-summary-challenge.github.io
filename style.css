@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+p{
+    font-size: 1rem;
+}
+
+.app .background_desktop{
+    width: 100%;
+    height: 54%;
+    position: relative;
+}
+
+.app{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #e0e8ff;
+
+}
+
+
+.app .box{
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 1.2rem;
+    background: #fff;
+}
+
+.app .illustration_hero{
+    border-radius: 1.2rem 1.2rem 0 0;
+}
+
+.box_div{
+    margin-top: -20rem;
+    padding-bottom: 2rem;
+}
+
+.box-heading{
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 0 10rem;
+
+}
+
+.box .box-heading h1{
+    font-weight: 900;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.06em;
+    margin-bottom: 1.4rem;
+    
+}
+
+.box .box-heading p{
+    color: #7280a7;
+    font-weight: 500;
+}
+
+.second_box{
+    border-radius: 1rem;
+    width: 355px;
+    height: 100px;
+    margin: auto;
+    background: #F8F9FE;
+}
+
+
+.second_box .content{
+    padding-top: 1rem;
+}
+
+.second_box .content h2{
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 20px;
+    font-weight: 900;
+}
+
+.second_box .content p{
+    font-weight: 500;
+}
+
+.second_box a{
+    font-weight: 700;
+    color: #3829e0;
+}
+
+.second_box a:focus{
+    color: #766CF1;
+    text-decoration: none;
+}
+
+.buttons .btn1{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #3829E4;
+    box-shadow: 2px 6px 12px 3px #D7D0FF;
+    border-radius: 10px;
+    margin: 2.4rem 0 1.8rem 0;
+
+}
+
+.buttons .btn1:focus{
+    background: #766CF1;
+    color: #fff;
+    outline: none;
+}
+
+.buttons .btn1:hover{
+    color: #fff;
+}
+
+.buttons .btn2{
+    font-weight: 700;
+    text-decoration: none;
+    color: #7280a7;
+}
+
+.buttons .btn2:focus{
+    color: #202020;
+}
+
+
+
+
+
+
+@media screen and (min-width: 720px) {
+    .background_mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 719px) {
+    .background_desktop{
+        display: none;
+    }
+    .background_mobile{
+        width: 100%;
+    }
+    .second_box{
+        width: 100%;
+    }
+    .box_div{
+        margin-top: -10rem;
+        padding-bottom: 2rem;
+    }
+}
